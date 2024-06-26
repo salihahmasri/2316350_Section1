@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    
+     <!-- navigation bar -->
+     <!-- the navigation is consistent for all pages -->
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+    <div>
+        <!-- title for my website -->
+        <h1 class="title">WELCOME TO MY WEBSITE</h1>
+        <div class="content">
+            <!-- attach image using link  -->
+            <div>
+                <img src="https://64.media.tumblr.com/067ab08b05163da6b4613134eca5fbf2/500f8e70ab3a45ba-e9/s500x750/5d686d05efce8afbc56af1339a8c152597870a0d.png" alt="hi">
+            </div>
+            
+            <div class="intro">
+                <!-- self-introduction -->
+                <h1>HI</h1>
+                <h2>My name is Nur Salihah</h2>
+                <p>International Islamic University Malaysia Student</p> 
+                <!-- the user can read more if they click on more button and they can click back teh more button to hide the text -->
+                <button onclick="myFunction()">More</button>
+                <div id="moreIntro">
+                    <p>I'm Nur Salihah, IIUM student with passion for Bachelor Information Technology. I'm from Kuantan,Pahang. I come from a loving and close-knit family
+                        that includes my parents, my siblings and me. I'm the middle child in my family and I have 4 siblings. Talking about what are interesting about me is I like to
+                        schedule for daily plan so I will become more disciplined and I believe that my curiosity and eagerness to learn are some of my strongest traits, and they have led me to explore new ideas and concepts.</p>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("moreIntro");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+    </script>
 </body>
 </html>
