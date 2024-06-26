@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <link rel="stylesheet" href="education.css">
+    <script src="education.js"></script>
+</head>
+<body>
+    <!-- navigation bar -->
+    <!-- the navigation is consistent for all pages -->
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="school1">
+        <!-- this button when the user click on the button, it will hide, and when the content is hide, if the user try to click again, it will show the text -->
+        <!-- every level of study have button, so if the viewer feel distracted of many information , they can hide the text -->
+        <button onclick="myFunction()">Primary School</button>
+        <div id="school1">
+            <h3>2011 - 2014</h3>
+            <!-- put some school's images/ logo  -->
+            <img src="images/school1.jpeg" alt="sk1">
+            <p>SK Tanjung Lumpur, Kuantan, Pahang.</p>
+            <h3>2015 - 2017</h3>
+            <img src="images/school2.jpeg" alt="sk2">
+            <p>Sk Bunut Rendang, Kuantan, Pahang.</p>
+        </div>
+    </div>
+    <div class="school2">
+        <button class="btn2" onclick="myFunction1()">Secondary School</button>
+        <div id="school2">
+            <h3>2017-2022</h3>
+            <img src="images/school3.png" alt="sk3">
+            <p>SMK Alor Akar, Kuantan, Pahang.</p>
+        </div>
+    </div>
+    <div class="foundation">
+        <button class="btn3" onclick="myFunction2()">Foundation</button>
+        <div id="foundation">
+            <h3>2022-2023</h3>
+            <img src="images/school4.jpeg" alt="sk4">
+            <p>Centre Of Foundation Study, IIUM, Gambang, Pahang.</p>
+        </div>
+    </div>
+    <div class="now">
+        <button class="btn4" onclick="myFunction3()">Now</button>
+        <div id="now">
+            <h3>2023</h3>
+            <img src="images/school5.jpeg" alt="sk5">
+            <p>IIUM, Gombak.</p>
+        </div>
+    </div>
+
+        
+</body>
+</html>
