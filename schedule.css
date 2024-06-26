@@ -1,0 +1,33 @@
+/* style for body */
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 86);
+}
+/* start fo rtop navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(37, 63, 85);
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* end styling for top navigation bar */
+h2{
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
