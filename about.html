@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="about.js"></script>
+</head>
+<body>
+  <!-- navigation bar -->
+  <!-- the navigation is consistent for all pages -->
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+        <div>
+            <h1>SKILLS</h1>
+        </div>
+        <!-- i make slideshow for each skill that i learn, i only put the image with the fixed sizing and i also put the caption below for each image -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <!-- the numbertext it going to makesure that the slider will follow the sequence -->
+              <div class="numbertext">1 / 4</div>
+              <img src="images/html.png" style="width:100%">
+              <!-- this is the caption that i mention above -->
+              <div class="text">HTML</div> 
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="images/css.jpeg" style="width:100%">
+              <div class="text">CSS</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="images/js.png" style="width:100%">
+              <div class="text">JavaScript</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/tailwind.png" style="width:100%">
+                <div class="text">Tailwinds</div>
+            </div>
+            <!-- this is the symbol for next and previous error -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <!-- i also put the dot below the picture -->
+              <!-- i put 4 dots because i only have 4 pictures  -->
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        <div>
+            <h1>FRONTEND PROJECT</h1>
+        </div>  
+        <div class="listproj">
+          <!-- for this section, i used ordered list to show the number of frontend project -->
+          <ol>
+            <li>Booking Hotel System</li><br>
+            <img class="imgproject" src="images/bookhotel.png" alt="booking hotel">
+            <li>BookStore System</li><br>
+            <img class="imgproject" src="images/bookstore.png" alt="booking hotel">
+          </ol>
+        </div> 
+        
+
+</body>
+</html>
