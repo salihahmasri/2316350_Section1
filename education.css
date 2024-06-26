@@ -8,6 +8,9 @@ body{
 .topnav {
     overflow: hidden;
     background-color: rgb(37, 63, 85);
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
 .topnav a {
@@ -17,6 +20,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
 }
   
 .topnav a:hover {
@@ -41,6 +45,7 @@ button{
     font-weight: 800;
     font-size: 16px;
     height: 42px;
+    margin: 50px;
 }
 img{
     width: 90px;
